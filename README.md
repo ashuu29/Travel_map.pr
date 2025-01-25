@@ -53,25 +53,47 @@ Travel Map App is an innovative platform where users can pin places on a world m
    cd travel-map-app
    ```
 3. Install dependencies for both the backend and frontend:
-   ```bash
+   bash
    # Backend
-   cd backend
-   npm install
-
+   cd ../backend
+   bash
+   npm i {
+   "axios": "^1.7.5",
+    "mapbox-gl": "^3.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-map-gl": "^7.1.7",
+    "timeago.js": "^4.0.2"
+   }
+   
    # Frontend
    cd ../frontend
-   npm install
-   ```
-4. Start the application:
-   ```bash
+   bash
+   npm i{
+   "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4",
+    "nodemon": "^3.1.4"
+   }
+   
+   
+5. Start the application:
+   bash
    # Backend
-   cd backend
+   bash
+   cd ../backend
    npm start
+   
 
    # Frontend
+   bash
    cd ../frontend
-   npm start
-   ```
+   npm run dev
+   
 5. Open your browser and navigate to `http://localhost:3000` to access the app.
 
 ---
