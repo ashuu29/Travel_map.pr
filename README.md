@@ -56,7 +56,7 @@ Travel Map App is an innovative platform where users can pin places on a world m
    bash
    # Backend
    cd ../backend
-   bash
+   ```bash
    npm i {
    "axios": "^1.7.5",
     "mapbox-gl": "^3.6.0",
@@ -66,10 +66,10 @@ Travel Map App is an innovative platform where users can pin places on a world m
     "react-map-gl": "^7.1.7",
     "timeago.js": "^4.0.2"
    }
-   
+   ```
    # Frontend
    cd ../frontend
-   bash
+   ```bash
    npm i{
    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
@@ -79,21 +79,22 @@ Travel Map App is an innovative platform where users can pin places on a world m
     "mongoose": "^8.5.4",
     "nodemon": "^3.1.4"
    }
+   ```
    
    
 5. Start the application:
    bash
    # Backend
-   bash
+   ```bash
    cd ../backend
    npm start
-   
+   ```
 
    # Frontend
-   bash
+   ```bash
    cd ../frontend
    npm run dev
-   
+   ```
 5. Open your browser and navigate to `http://localhost:3000` to access the app.
 
 ---
