@@ -1,5 +1,5 @@
 # Travel Map App
-https://travelmapp.netlify.app/
+visit and give feedback: https://travelmapp.netlify.app/
 
 ## Overview
 Travel Map App is an innovative platform where users can pin places on a world map, share their travel experiences, and explore the reviews and ratings shared by others. This app allows users to visually organize and document their travels while also helping others discover amazing destinations. The app features color-coded pins for easy distinction: red pins represent places added by the user, and blue pins represent places added by others.
